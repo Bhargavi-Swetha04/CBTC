@@ -1,0 +1,72 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    margin-left: 100px;
+
+}
+.container{
+    max-width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://ih1.redbubble.net/image.513970861.7172/hj,1000x-pad,1000x1000,f8f8f8.u2.jpg');
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(226, 12, 119);
+    opacity: 1;
+}
+input[type="text"]{
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    width: 350px;
+    border: none;
+    box-shadow: 5px 5px 12px #080000be;
+    border-radius: 30px;
+    color: rgb(8, 8, 8);
+}
+button{
+    padding: 10px 20px;
+    margin: 8px;
+    background-color: rgba(7, 5, 2, 0.842);
+    color: rgba(236, 226, 226, 0.856);
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: rgb(124, 120, 116);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+h2{
+    color: rgb(226, 12, 119);
+    opacity: 1;
+    text-align: left;  
+    padding-left: 30px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.delete-btn{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
