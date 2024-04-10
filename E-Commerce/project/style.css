@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto+Condensed:wght@300&family=Ubuntu&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    height: 80px;
+    width: 200px;
+    
+}
+.menu h1 {
+    text-align: center;
+}
+
+.menu {
+    background-color: antiquewhite;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+    position: fixed;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: azure;
+    border-radius: 20%;
+    padding: 5px;
+    color: black;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80vh;
+    justify-content: space-between;
+   
+}
+
+.home_left {
+    width: 100vw;
+    padding-left: 80px;
+    margin-top: 80px;
+}
+
+.home_h1 {
+    padding-left: 100px;
+    text-align: right;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 80px;
+    color: rgb(231, 64, 162);
+}
+
+.home_p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    color: #010a05;
+}
+
+.home_right {
+    width: 50vw;
+    padding-left: 100px;
+    padding-right: 80px;
+}
+
+.home_img {
+    height: 400px;
+    margin-top: 200px;
+}
+
+section {
+    text-align: center;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95vh;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-section .hero {
+    max-width: 100%;
+    color: black;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-top: 10%;
+    
+}
+
+.hero p {
+    font-size: 20px;
+    color: black;
+    width: 500px;
+    height:250px;
+    
+}
+
+.photo {
+    margin-top: -5%;
+}
+.container {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgb(243, 215, 228);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  color: black;
+}
+.form-group {
+  margin-bottom: -4px;
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.form-group input,
+.form-group textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.form-group textarea {
+  height: 80px;
+}
+.form-group button {
+  padding: 10px 20px;
+  background-color:green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left:40%;
+}
+.form-group button:hover {
+  background-color: green;
+}
+.one h1{
+    font-size:medium;
+    font-family: Verdana;
+    font-weight: lighter;
+    text-align: center;
+    color: brown;
+}
+.two h1{
+  font-size:medium;
+  font-family: Verdana;
+  font-weight: lighter;
+  text-align: center;
+  color: brown;
+}
+.main h2{
+    font-size:medium;
+    font-family: Verdana;
+    font-weight: lighter;
+    text-align: center;
+    color:blue;
+    margin:1%;
+}
+.a1{
+   display:inline-block;
+        margin:10px;
+        border:10px;
+        padding:3px;  
+}
+.one{
+    display:flex;
+    width:1400px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.two{
+    display:flex;
+    width:1400px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.b1{
+   display:inline-block;
+        margin:5px;
+        border:5px;
+        padding:3px;  
+}
+.one h6{
+    font-family: Verdana;
+    font-size: large;
+    font-weight: lighter;
+}
+.two h6{
+  font-family: Verdana;
+  font-size: large;
+  font-weight: lighter;
+}
+footer {
+    background-color: grey;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 1400px;
+    height: 150px;
+    margin-top: -13%;
+   
+}
+
+.footer{
+    background-color: grey;
+    color: pink;
+    padding: 20px ;
+    text-align: center;
+}
+.footerPage h2{
+    text-align: center;
+}
+
+.footerPage p {
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 5px;
+    color: white;
+    padding-bottom: 100px;
+}
